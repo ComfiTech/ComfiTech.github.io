@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>CheapChowChasers</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="CheapChowChasers.css">
+</head>
+
+<header>
+    <h1><a href =home.html><img src="CheapChowChaserslogo.png" alt="" height="120" width="160"></a></h1>
+    
+</header>
+
+<nav>
+    <ul>
+        <li><b><a href=home.html>Home</a></b></li>
+        <li><b><a href=Menu.html>Menu</a></b></li>
+        <li><b><a href=currentdeals.html>Current Deals</a></b></li>
+        <li><b><a href=coupons.html>Coupon List</a></b></li>
+        <li><b><a href=loginandregister.html>Login/Register</a></b></li>     
+    </ul>
+    
+</nav>
+<main>
+<div>
+    <form action="javascript:;" onsubmit= "loginSend()">
+        <input type="submit" id="login" value="Login">
+
+    </form>
+    <h6>Or</h6>
+    <form action="javascript:;" onsubmit= "registerSend()">
+        <input type="submit" id="register" value="Register">
+
+    </form>
+    <script>
+        function loginSend() {
+            window.location.replace("login.html");
+        }
+
+        function registerSend() {
+            window.location.replace("register.html");
+        }
+
+    </script>
+
+    
+
+</div>
+</main>
+<footer>
+    Copyright © 2024 CheapChowChasers<br>
+    jm00583@my.westga.edu
+   
+</footer>
+</html>
