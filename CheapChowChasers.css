@@ -30,8 +30,12 @@ footer {color: rgb(13, 189, 131); font-size: .60em; font-style: italic; text-ali
 
 #accountInfo{display: flex; flex-direction: column; columns: 2;}
 #menu{display: grid;}
-#login{height: 125px; width: 500px; margin-left: 33%;}
-#register{height: 125px; width: 500px; margin-left: 33%;}
+#login{height: 125px; width: 500px; margin-left: 33%; background-image: url(Login\ Button.jpg); background-size: 500px 125px; background-repeat: no-repeat;}
+#register{height: 125px; width: 500px; margin-left: 33%; background-image: url(Register\ Button.jpg); background-size: 500px 125px; background-repeat: no-repeat;}
 #user{display: block;}
 #pass{display: block;}
 #coupons{width: 50%;}
+.rslides {position: relative; list-style: none; overflow: hidden; width: 100%; padding: 0; margin: 0;}
+.rslides li {-webkit-backface-visibility: hidden; position: absolute; display: none; width: 100%; left: 0; top: 0;}
+.rslides li:first-child {position: relative; display: block; float: left;}
+.rslides img {display: block; height: auto; float: left; width: 100%; border: 0;}

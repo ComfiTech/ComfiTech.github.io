@@ -6,6 +6,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="CheapChowChasers.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="responsiveslides.min.js"></script>
+    <script>
+        $(function() {
+          $(".rslides").responsiveSlides();
+        });
+      </script>
 </head>
 
 <header>
@@ -34,7 +42,14 @@
             <th style="width: 200px;">Dessert</th>
         </tr>
         <tr>
-            <td><img src="Breakfast_Casserole.jpg" alt="Breakfast Meal" height="175" width="175"> </td>
+            
+            <td>
+                <ul class="rslides">
+                    <li><img src="Breakfast_Casserole.jpg" alt="Breakfast Casserole" height="175" width="175"></li>
+                    <li><img src="Breakfast_Burrito.jpg" alt="Breakfast Burrito" height="175" width="175"></li>
+                    <li><img src="Breakfast_FruitSalad.jpg" alt="Breakfast Fruit Salad" height="175" width="175"></li>
+                </ul>
+            </td>
             <td><img src="StirFry.jpg" alt="Lunch Meal" height="175" width="175"></td>
             <td><img src="Steak.jpg" alt="Breakfast Meal" height="175" width="175"></td>
             <td><img src="Brownies.jpg" alt="Dessert Meal" height="175" width="175"></td>
