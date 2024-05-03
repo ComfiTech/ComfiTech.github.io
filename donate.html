@@ -4,7 +4,7 @@
 <head>
     <title>CheapChowChasers</title>
     <meta charset="UTF-8">
-    <meta name="description" content="CheapChowChasers register page">
+    <meta name="description" content="CheapChowChasers donate page">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="CheapChowChasers.css">
     <script src="loginandregister.js"></script>
@@ -15,8 +15,6 @@
     
 </header>
 
-    
-    
 <nav>
     <ul>
         <li><b><a href=home.html>Home</a></b></li>
@@ -24,33 +22,35 @@
         <li><b><a href=currentdeals.html>Current Deals</a></b></li>
         <li><b><a href=coupons.html>Coupon List</a></b></li>
         <li><b><a href=loginandregister.html>Login/Register</a></b></li>
-        <li><b><a href=donate.html>Donate</a></b></li>     
+        <li><b><a href=donate.html>Donate</a></b></li>
+
     </ul>
-    
 </nav>
+
+
 <main>
+    
+    <div>
+    <h2>Donate Login Confirm</h2>
     <div id="accountInfo">
-        <form action="javascript:;" onsubmit= "registerLogin(document.getElementById('user').value, document.getElementById('pass').value)">
+        <p>Confirm your account to continue</p>
+        <form action="javascript:;" onsubmit="checkLoginDonate(document.getElementById('user').value, document.getElementById('pass').value)">
             <label for="user">Username</label>
             <input type="text" id="user" name="username" required>
     
             <label for="pass">Password</label>
             <input type="password" id="pass" name="password" required>
+            
     
-            <input type="submit" value="Register">
+            <input type="submit" value="Confirm">
         </form>
-        
-    <p>Need Help Creating a Strong Password? <a href="https://www.terranovasecurity.com/blog/how-to-create-a-strong-password-in-7-easy-steps">Here</a> for help!</p>
-        
     
-    
-        <p>Already have an Account? <a href=login.html>Login!</a></p>
-        
-    </div>
-    </main>
-    <footer>
-        Copyright © 2024 CheapChowChasers<br>
-        jm00583@my.westga.edu
-       
-    </footer>
-    </html>
+
+</div>
+</main>
+<footer>
+    Copyright © 2024 CheapChowChasers<br>
+    jm00583@my.westga.edu
+   
+</footer>
+</html>
